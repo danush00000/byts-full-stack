@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: #303035;
+    color: white;
+    font-family: monospace;
+    
+}
+header{
+     background-color:rgba(0, 0, 0, 0.556);
+     color: white;
+    list-style-type: none;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.top{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+.top span{
+    color:rgb(223, 118, 235);
+}
+.first{
+    list-style-type: none;
+}
+#topic{
+    font-weight: 800;
+    font-size: 20px;
+}
+footer{
+    margin: 60px;
+    display: flex;
+    border-bottom: 2px solid white;
+}
+.first{
+    line-height: 35px;
+    padding: 20px;
+}
+.second{
+    line-height: 35px;
+    list-style-type: none;
+    padding: 20px;
+}
+.third {
+    line-height: 35px;
+    list-style-type: none;
+    padding: 20px;
+}
+.fourth{
+    line-height: 35px;
+    list-style-type: none;
+    padding: 20px;
+}
+.five{
+    line-height: 35px;
+    list-style-type: none;
+    padding: 20px;
+}
+.six{
+    line-height: 35px;
+    list-style-type: none;
+    padding: 20px;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
