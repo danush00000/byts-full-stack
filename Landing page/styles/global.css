@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+   background: #23bdfa;
+background: linear-gradient(90deg,rgba(35, 189, 250, 1) 0%, rgba(126, 242, 174, 1) 50%); color: black;
+    
+}
+header{
+   background-color: rgba(0, 0, 0, 0.321);
+  text-decoration: none;
+  display: flex;
+   justify-content: space-between;
+    
+    
+}
+
+a{
+    list-style-type:none;
+    text-decoration: none;
+    color: azure;
+    font-size: 25px;
+    margin: 10px;
+    display: flex;
+   
+    
+    
+}
+a:hover{
+     background-color: black;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+section{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pro{
+     font-size: 30px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+     align-items: center;    
+}
+
+.add{
+    font-size: 30px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+label{
+    padding: 20px 10px 10px 10px;
+}
+input{
+    border: 1px solid coral;
+    padding: 10px;
+    border-radius: 7px;
+    background: rgb(248, 200, 182);
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.btn{
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #14b0ee;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(16, 120, 194);
+}
+#outer{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-wrap{
+   
+    padding: 10px;
+}
+.buttons{
+    margin: 5px;
+    padding: 18px;
+    display: line;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+.buttons:hover{
+    background-color: rgba(227, 216, 216, 0.772);
+}
+.calculator{
+    margin: 5px;
+    padding: 15px;
+    background: #bc7ee6;
+background: linear-gradient(90deg,rgba(188, 126, 230, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    /* background-color:#03a9f4; */
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.calinput{
+   
+    border: 1px solid coral;
+    padding: 15px;
+    
+    border-radius: 7px;
+    background: rgb(248, 200, 182);
+}
